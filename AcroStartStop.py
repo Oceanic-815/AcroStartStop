@@ -8,8 +8,10 @@ Usage example:
 import os
 import sys
 
-SERVICES = ["HvVmWatcher", "MMS", "AMS", "AcrMngSrv", "AcronisMonitoringService", "AcronisAgent", "ARSM", "AcrSch2Svc",
-            "ASM", "StorageNode", "AcronisZmqGw", "CatalogBrowserService"]
+SERVICES = ["HvVmWatcher", "aakore", "AcronisCyberFilesClientService", "AcronisCyberProtectionService", "MMS", "AMS",
+            "AcrMngSrv", "HvVmWatcher", "AcronisMonitoringService", "AcronisAgent", "ARSM", "AcrSch2Svc",
+            "ASM", "StorageNode", "AcronisZmqGw", "CatalogBrowserService", "AcronisFS", "AcronisPXE",
+            "elasticsearch-service-x64"]
 
 
 def serviceAction(action):

@@ -8,6 +8,7 @@ bin-release/
 .settings/
 .idea
 .git
+venv
 
 # Executables
 *.swf
